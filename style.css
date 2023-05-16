@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Carlito&display=swap');
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #111212;
+    font-family: 'Carlito', sans-serif;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    font-size: 58px;
+    color: #ffa500;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    height: 400px;
+    margin: auto;
+    flex-direction: column;
+}
+
+.input {
+    background-color: #111212;
+    border: none;
+    border-bottom: 2px solid white;
+    padding: 0px 4px 1px 4px;
+    font-size: 30px;
+    color: white;
+}
+
+.button1 {
+    color: black;
+    border-radius: 30px;
+    border: none;
+    background-color: #dddada;
+    font-size: 22px;
+}
+
+.button1 :hover {
+    background-color: grey;
+}
+
+.button2 {
+    color: white;
+    background-color: #585252;
+    border-radius: 30px;
+    border: none;
+    font-size: 22px;
+}
+
+.button3 {
+    background: #ffa500;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    font-size: 22px;
+}
+
+.row1 {
+    display: grid;
+    width: 320px;
+    grid-auto-columns: 275px;
+    justify-content: center;
+    height: 45px;
+    margin: 8px;
+}
+
+.row2 {
+    margin: 2px;
+    width: 300px;
+    height: 60px;
+    display: grid;
+    grid-template-columns: 65px 65px 65px 65px;
+    justify-content: center;
+    grid-gap: 5px;
+}
+
+.row3 {
+    display: grid;
+    height: 60px;
+    width: 300px;
+    grid-template-columns: 132px 68px 65px;
+    grid-gap: 5px;
+    justify-content: center;
+    margin: 2px;
+}

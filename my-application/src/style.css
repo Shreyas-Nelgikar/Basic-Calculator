@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Carlito&display=swap');
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #111212;
+    font-family: 'Carlito', sans-serif;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    font-size: 58px;
+    color: #ffa500;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    height: 400px;
+    margin: auto;
+    flex-direction: column;
+}
+
+.button1 {
+    color: black;
+    border-radius: 30px;
+    border: none;
+    background-color: #dddada;
+    font-size: 22px;
+}
+
+.button1:hover {
+    background-color: white;
+}
+
+.button2 {
+    color: white;
+    background-color: #585252;
+    border-radius: 30px;
+    border: none;
+    font-size: 22px;
+}
+
+.button2:hover {
+    background-color: gray;
+}
+
+.button3 {
+    background: #ffa500;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    font-size: 22px;
+}
+
+.button3:hover {
+    background-color: white;
+    color: orange;
+}
+
+.screen {
+    height: 60px;
+    width: 262px;
+    margin: 0px 4px 20px 4px;
+    padding: 3px 0px 3px 0px;
+    color: white;
+    font-size: 45px;
+    text-align: right;
+    overflow: hidden;
+    border-bottom: 1px solid #817d7d;
+}
+
+.row2 {
+    margin: 2px;
+    width: 300px;
+    height: 60px;
+    display: grid;
+    grid-template-columns: 65px 65px 65px 65px;
+    justify-content: center;
+    grid-gap: 5px;
+}
+
+.row3 {
+    display: grid;
+    height: 60px;
+    width: 300px;
+    grid-template-columns: 132px 68px 65px;
+    grid-gap: 5px;
+    justify-content: center;
+    margin: 2px;
+}
